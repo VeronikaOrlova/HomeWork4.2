@@ -1,0 +1,55 @@
+
+
+@media (max-width: 1300px) {
+    .table {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 610px) {
+    
+    .prices {
+        max-width: 100%;
+        max-height: 50%;
+        margin-top: 0;
+    }
+
+.main {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.customers {
+    max-width: 100%;
+}
+.styleDesign {
+    max-width: 100%;
+    
+}
+.contact {
+    margin-top: 0;
+}
+.footer {
+    margin-top: 1150px;
+    width: 100%;
+}
+
+
+@media (max-width: 610px) {
+ .tableprices {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+        
+.table {
+    width: 70%;
+    padding-bottom: 10px;
+    align-self: center;
+}
+.topicprice {
+    align-self: center;
+}
+}
+        
+            
