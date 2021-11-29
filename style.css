@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    padding: 0 20%;
+    padding: 0 0;
     margin: 0 auto;
     font-family: 'Calibri', Times, serif;
     font-weight: 100;
@@ -302,7 +302,7 @@ h1 {
 
 
 .prices{
-    height: 700px;
+    height: 100%;
     background: lightgray;
     display: flex;
     flex-direction: column;
@@ -378,6 +378,7 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: white;
 }
 .customersHeader{
     text-align: center;
@@ -427,7 +428,7 @@ h1 {
         text-align: center;
         margin-top: -200px;
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(img/back3.png);
-        height: 320px;
+        height: 320px; 
         
     }
 .styleDesign hr{
@@ -460,10 +461,7 @@ h1 {
 
 
 
-.contact {
- height: 300px;
- margin-top: -270px;
-}
+
 
 
  .con hr{
@@ -499,8 +497,8 @@ h1 {
 }
 
 .contact{
-    
-    height: 600px;
+    margin-top: 30px;
+    height: 500px;
     background: white;
     display: flex;
     flex-direction: column;
@@ -531,7 +529,7 @@ h1 {
 
 
  .footer{
-     margin-top: 20px;
+    margin-top: 300px;
     height: 80px;
     background: black;
     display: flex;
@@ -544,7 +542,8 @@ h1 {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;}
+    justify-content: center;
+}
 
 .linkFooter img{
     height: 20px;
